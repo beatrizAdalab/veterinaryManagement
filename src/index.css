@@ -1,0 +1,45 @@
+html {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0 !important;
+  font-family: sans-serif;
+  min-height: 100%;
+  padding-bottom: 5rem;
+  background-color: #f8f9fa!important;
+}
+
+header {
+  padding: 3em 0em;
+}
+header h1 {
+ font-size: 28px;
+ color:black;
+ font-weight: bold;
+}
+
+main h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logoHome{
+  opacity: 0.5;
+}
+
+.management-appointments{
+  background: white;
+}
+
+@media only screen and (min-width: 600px) {
+  .container-header{
+    height: 30vh;
+  }
+
+  .container-form{
+    height: 70vh;
+  }
+
+
+}
